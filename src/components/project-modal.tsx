@@ -77,7 +77,7 @@ const ProjectModal = () => {
       onClick={handleClose}
     >
       <motion.div
-        className="w-full md:h-[90vh] h-[70vh] relative bg-[#fff] shadow-lg px-2 md:px-6 md:py-6 rounded-t-[30px] text-white flex justify-center items-center"
+        className="w-full md:h-[90vh] h-[70vh] relative bg-[#fff] shadow-lg px-2 md:px-6 md:py-6 rounded-t-[20px] text-white flex justify-center items-center"
         variants={modalVariants}
         initial="hidden"
         animate="visible"

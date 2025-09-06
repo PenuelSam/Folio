@@ -23,11 +23,11 @@ const Header = () => {
       <div className='flex items-center gap-1'>
         <ul className='flex items-center gap-1'>
           <Link href="/info"><li className='font-medium font-HelveticaMid uppercase md:text-[14px] text-[12px] leading-[19.2px] tracking-[-2%] text-[#000]'>Info,</li></Link>
-          <Link href="/"><li className='font-medium font-HelveticaMid uppercase md:text-[14px] text-[12px] leading-[19.2px] tracking-[-2%] text-[#000]'>Projects,</li></Link>
+          <Link href="/"><li className='font-medium font-HelveticaMid uppercase md:text-[14px] text-[12px] leading-[19.2px] tracking-[-2%] text-[#000]'>Projects</li></Link>
         </ul>
         
         {/* Download CV Button */}
-        <a 
+        {/* <a 
           href='/penueldev-resume.pdf'
           download="Resume.pdf"
           onClick={handleDownload}
@@ -40,7 +40,7 @@ const Header = () => {
           ) : (
             ' CV'
           )}
-        </a>
+        </a> */}
       </div>
     </div>
   );
