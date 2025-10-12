@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Penuel",
   description: "Penuel Folio",
+   icons:{
+    apple: "/apple-touch-icon.png",
+  }
 };
 
 export default function RootLayout({

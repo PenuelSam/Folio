@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useModalStore } from '@/store/modal.store'
 import img1 from "@/assets/image/dressthearthcover.png"
 import img2 from "@/assets/image/euterpecover.png"
-import img3 from "@/assets/image/thenotescover.png"
+import img3 from "@/assets/image/skillswapCover.png"
 import img4 from "@/assets/image/ymkcover.png"
 import { MdArrowOutward } from "react-icons/md";
 import { GoVideo } from "react-icons/go";
@@ -51,11 +51,11 @@ export const projects: Project[] = [
     {
         id: 3,
         cover: img3,
-        name: "The Notes",
-        desc: "An e-commerce platform designed for an aromatherapy brand, offering a seamless shopping experience. Built with a user-friendly interface, secure checkout, and an elegant product display.",
-        url: "https://the-notes-ivory.vercel.app/",
-        video: '/videos/thenotes.mp4',
-        date: "2024",
+        name: "SkillSwap",
+        desc: " Learn, Teach, and Grow with SkillSwap, Join a community of like-minded individuals who share your passion for learning and growth.",
+        url: "https://skill-swap-fawn-three.vercel.app/",
+        video: '/videos/1010.mp4',
+        date: "2025",
         isIncomplete: true,
     },
     {

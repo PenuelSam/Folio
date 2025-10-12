@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useModalStore } from '@/store/modal.store'
 import img1 from "@/assets/image/dressthearthcover.png"
 import img2 from "@/assets/image/euterpecover.png"
-import img3 from "@/assets/image/thenotescover.png"
+import img3 from "@/assets/image/skillswapCover.png"
 import img4 from "@/assets/image/ymkcover.png"
 import img5 from "@/assets/image/sectionStudio.png"
 import { MdArrowOutward } from "react-icons/md";
@@ -40,7 +40,17 @@ export const projects: Project[] = [
         isIncomplete: true,
     },
     {
-        id: 2,
+            id: 2,
+            cover: img3,
+            name: "SkillSwap",
+            desc: " Learn, Teach, and Grow with SkillSwap, Join a community of like-minded individuals who share your passion for learning and growth.",
+            url: "https://skill-swap-fawn-three.vercel.app/",
+            video: '/videos/1010.mp4',
+            date: "2025",
+            isIncomplete: true,
+    },
+    {
+        id: 3,
         cover: img4,
         name: "Ymkupnext!",
         desc: "A sleek portfolio website built for a creative director and videographer to showcase their work. Features a visually rich design, smooth animations, and a structured portfolio layout.",
@@ -50,7 +60,7 @@ export const projects: Project[] = [
         isIncomplete: false,
     },
     {
-        id: 3,
+        id: 4,
         cover: img2,
         name: "Euterpe",
         desc: "A Web3 music streaming platform that rewards listeners for discovering new artists while ensuring fair royalties and global reach for creators.",
@@ -60,7 +70,7 @@ export const projects: Project[] = [
         isIncomplete: true,
     }, 
     {
-        id: 4,
+        id: 5,
         cover: img1,
         name: "Dress the Earth",
         desc: "A collaborative freelance project focused on sustainability and eco-friendly products. Developed with a clean aesthetic, engaging content, and intuitive navigation for a smooth user experience.",
@@ -68,16 +78,6 @@ export const projects: Project[] = [
         video: '/videos/dressearth.mp4',
         date: "2024",
         isIncomplete: false,
-    },
-    {
-        id: 5,
-        cover: img3,
-        name: "The Notes",
-        desc: "An e-commerce platform designed for an aromatherapy brand, offering a seamless shopping experience. Built with a user-friendly interface, secure checkout, and an elegant product display.",
-        url: "https://the-notes-ivory.vercel.app/",
-        video: '/videos/thenotes.mp4',
-        date: "2024",
-        isIncomplete: true,
     },
 ]
 
