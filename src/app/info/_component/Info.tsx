@@ -8,12 +8,12 @@ export default function Info() {
   return (
     <div className="md:w-[80%] w-full  h-full px-4 flex flex-col md:gap-40 gap-32 justify-between">
       <div>
-        <p className="text-black font-HelveticaMid leading-[19.2px] tracking-[0.02em] text-[16px]">A frontend developer based in Nigeria, passionate about crafting intuitive and visually engaging digital experiences. Skilled in React, Next.js, and modern web technologies, with a focus on responsive, accessible, and user-friendly design. Constantly exploring new ways to merge creativity with technology, while bringing ideas to life through thoughtful code and design</p>
+        <p className="text-black font-HelveticaMid leading-[19.2px] tracking-[0.02em] text-[16px]">A frontend developer based in Nigeria, passionate about crafting intuitive and visually engaging digital experiences. Skilled in Next.js, Supabase and modern web technologies, with a focus on responsive, accessible, and user-friendly design. Constantly exploring new ways to merge creativity with technology, while bringing ideas to life through thoughtful code and design</p>
       </div>
       <div className="flex flex-col gap-5">
         <div>
             <h1 className="text-black font-HelveticaMid  leading-[19.2px] tracking-[0.02em] text-[16px] flex items-center">TECHNOLOGIES<MdArrowRight fontSize={30}/></h1>
-         <p className="text-black font-HelveticaMid leading-[19.2px] md:w-[500px] tracking-[0.02em] text-[14px] uppercase">HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS, REDUX, TAILWIND, TanStack Query, Zustand ,Vite, Git, Firebase, SEO, Version Control</p>
+         <p className="text-black font-HelveticaMid leading-[19.2px] md:w-[500px] tracking-[0.02em] text-[14px] uppercase">HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS, Supabase, REDUX, TAILWIND, TanStack Query, Zustand , Git, SEO, Version Control</p>
         </div>
         {/* <div>
             <h1 className="text-black font-HelveticaMid  leading-[19.2px] tracking-[0.02em] text-[16px] flex items-center">FAMILIAR WITH <MdArrowRight fontSize={30}/></h1>
